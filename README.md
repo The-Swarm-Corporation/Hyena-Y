@@ -181,18 +181,6 @@ metrics = train_hyena_y(
 )
 ```
 
-## Performance
-
-Hyena-Y consistently outperforms state-of-the-art Transformer-based models on edge devices:
-
-- **Latency**: Faster prefill and decode latencies, especially at longer sequences
-- **Memory**: Lower memory usage during deployment
-- **Quality**: Better performance on common language modeling benchmarks
-
-| Model | WikiText Perplexity | Lambada Perplexity | PiQA Acc | Hellaswag Acc | Winogrande Acc | ARC-e Acc | ARC-c Acc | Average |
-|-------|---------------------|-------------------|----------|---------------|----------------|-----------|-----------|---------|
-| GQA-Transformer++ | 17.3 | 10.8 | 71.1 | 49.3 | 51.4 | 63.2 | 31.7 | 53.34 |
-| Hyena-Y | 16.2 | 9.4 | 72.3 | 52.8 | 54.8 | 64.4 | 31.7 | 55.2 |
 
 ## Model Architecture Details
 
