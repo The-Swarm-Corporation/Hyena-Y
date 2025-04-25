@@ -21,7 +21,7 @@ This architecture was introduced in ["Convolutional Multi-Hybrids for Edge Devic
 
 ## Architecture
 
-![Hyena-Y Architecture](assets/hyenay-architecture.png)
+![Hyena-Y Architecture](hyenay-detailed-diagram.svg)
 
 Hyena-Y's key innovation is the removal of convolutions in the feature groups (gates) while preserving the inner convolution. This targeted modification provides better efficiency-quality trade-offs specifically for edge deployment scenarios.
 
